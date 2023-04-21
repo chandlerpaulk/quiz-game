@@ -1,0 +1,206 @@
+/* Start of Element customization */
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+h3 {
+    color: #484848;
+    text-align: center;
+    font-size: 100px;
+    font-family: monospace;
+}
+
+h2 {
+    color: #484848;
+}
+
+h1 {
+    color: #fff;
+}
+/* END OF ELEMENT CUSTOMIZATION */
+
+/* Start of Radio Button Customization */
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .container-check:hover input ~ .checkmark {
+    background-color: #484848;
+  }
+  
+  .container-check input:checked ~ .checkmark {
+    background-color: #eba83b;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container-check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container-check .checkmark:after {
+       top: 8px;
+      left: 8px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #fff;
+  }
+  /* END OF RADIO BUTTON CUSTOMIZATION */
+
+/* Start of flexbox orientation */
+.container {
+    -ms-flex: 100%;
+    flex: 100%;
+    padding: 0px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 5px;
+    background-color: #e5e5e5;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.col-auto {
+    -ms-flex: 5%;
+    flex: 5%;
+    text-align: left;
+    padding: 20px;
+}
+/* END OF FLEXBOX ORIENTATION */
+
+/* Start of Question and Answer Customization */
+.question{
+    font-weight: 600;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+/* END OF OF QUESTION AND ANSWER CUSTOMIZATION*/
+
+/* Start of Timer customization */
+#display {
+    font-family: monospace;
+    font-size: 300%;
+    color: #eba83b;
+}
+/* END OF TIMER CUSTOMIZATION */
+
+/* Start of H1 Box customization */
+#title {
+    background-color: #eba83b;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+}
+/* END OF H1 BOX CUSTOMIZATION */
+
+/* Start of Title Container Customization */
+#title-container {
+    background-color: #eba83b;
+}
+/* END OF TITLE CONTAINER CUSTOMIZATION */
+
+/* Start of Side customization */
+#side {
+    background-color: #fff;
+}
+/* END OF SIDE CUSTOMIZATION */
+
+/* Start of Display Container customization */
+#display-container {
+    text-align: center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 30px;
+}
+/* END OF DISPLAY CONTAINER CUSTOMIZATION */
+
+/* Start of Submit Button customization */
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #eba83b;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: #eba83b;
+}
+/* END OF SUBMIT BUTTON CUSTOMIZATION */
+
+/* Start of answers customization */
+#answers {
+    color: #484848;
+}
+/* END OF ANSWERS CUSTOMIZATION */
+
+/* Start of Percentage Container customization */
+#percentage-container {
+    background-color: #e5e5e5;
+    border: 0px;
+    border-radius: 3px;
+}
+/* END OF PERCENTAGE CONTAINER CUSTOMIZATION */
+
+/* Start of Letter Grade Container customization */
+#letter-grade-container {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 3px;
+}
+/* END OF LETTER GRADE CONTAINER CUSTOMIZATION */
+
+/* Start of Letter Grade customization */
+#letter-grade {
+    background-color: #eba83b;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+}
+/* END OF LETTER GRADE CUSTOMIZATION */
