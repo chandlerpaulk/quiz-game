@@ -1,1 +1,1 @@
-# A Boyfriend Quiz game developed by Chandler Paulk
+## A Quiz Game developed by Chandler Paulk
